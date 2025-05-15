@@ -1,0 +1,15 @@
+{
+  "name": "@ripesoft/html-pdf",
+  "version": "1.0.0",
+  "exports": "./mod.ts",
+  "description": "A simple Deno module to convert HTML content to PDF files using the system's default browser",
+  "publish": {
+    "include": [
+      "mod.ts",
+      "example.ts",
+      "replit_example.ts",
+      "README.md",
+      "LICENSE"
+    ]
+  }
+}
