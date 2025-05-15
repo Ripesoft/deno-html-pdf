@@ -1,0 +1,14 @@
+{
+  "name": "deno-html-pdf",
+  "version": "1.0.0",
+  "description": "A simple Deno module to convert HTML content to PDF files using the system's default browser",
+  "author": "Your Name",
+  "license": "MIT",  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ripesoft/deno-html-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ripesoft/deno-html-pdf/issues"
+  },
+  "homepage": "https://github.com/Ripesoft/deno-html-pdf#readme"
+}

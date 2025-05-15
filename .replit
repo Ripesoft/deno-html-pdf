@@ -1,0 +1,11 @@
+run = "deno run --allow-read --allow-write --allow-run replit_example.ts"
+entrypoint = "replit_example.ts"
+
+[languages.deno]
+pattern = "**/*.{ts,js}"
+[languages.deno.languageServer]
+start = ["deno", "lsp"]
+[languages.deno.languageServer.config.deno]
+enable = true
+lint = true
+unstable = true
